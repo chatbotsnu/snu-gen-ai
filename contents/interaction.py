@@ -38,7 +38,7 @@ def interaction_intro():
 
     >
     > 1. On the next page, you will see a list of questions. **__Select__** one question to ask the chatbot.
-    > 2. Carefully review the chatbot's answer and its confidence level.
+    > 2. Carefully review the chatbot's answer.
     > 3. Rate the accuracy of the answer. 
     >
 
@@ -165,7 +165,7 @@ def interaction_page():
         Instructions = st.container(border=False, key="intro")
         Instructions.write("### Instructions")
         Instructions.markdown(f"""
-        **1. Choose a question from the list below, then click submit.**  
+        **1. Choose a question from the list below.**  
         **2. The question will appear in the chat box.**  
         **3. Click the arrow button to see the chatbot's response.**  
         **<If you want to change your question, you can select a new one from the list and then click the arrow.>**  
