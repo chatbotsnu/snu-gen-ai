@@ -289,8 +289,8 @@ def closing_page():
         st.markdown("[https://app.prolific.com/submissions/complete?cc=CWPVIWIH](https://app.prolific.com/submissions/complete?cc=CWPVIWIH)")
         # st.stop()
     else:
-        st.write("Thank you for your time. Your responses will not be submitted.")
-        st.write("Please close this page and return the study on Prolific. You will not be penalized for returning this study.")
+        st.write("Thank you for your time. Your responses will not be saved.")
+        st.write("Please close this page and return this submission on Prolific. You will not be penalized for returning this study.")
         #st.markdown("[https://app.prolific.com/submissions/complete?cc=CAUQT8JQ](https://app.prolific.com/submissions/complete?cc=CAUQT8JQ)")
         # st.stop()
 
