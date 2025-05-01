@@ -289,9 +289,9 @@ def closing_page():
         st.markdown("[https://app.prolific.com/submissions/complete?cc=CWPVIWIH](https://app.prolific.com/submissions/complete?cc=CWPVIWIH)")
         # st.stop()
     else:
-        st.write("Thank you for participating in this study. Your responses will not be submitted.")
-        st.write("Please click the link below to exit the study.")
-        st.markdown("[https://app.prolific.com/submissions/complete?cc=CAUQT8JQ](https://app.prolific.com/submissions/complete?cc=CAUQT8JQ)")
+        st.write("Thank you for your time. Your responses will not be submitted.")
+        st.write("Please close this page and return the study on Prolific. You will not be penalized for returning this study.")
+        #st.markdown("[https://app.prolific.com/submissions/complete?cc=CAUQT8JQ](https://app.prolific.com/submissions/complete?cc=CAUQT8JQ)")
         # st.stop()
 
 def send_results_email(data_df, recipient_email):
